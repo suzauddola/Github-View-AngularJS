@@ -4,8 +4,10 @@
     <title>Angular Practice</title>
 
 </head>
-<body ng-controller="MainController">
+<body ng-controller="mainController">
     <h1>{{massage}}</h1>
+
+    {{countdown}}
 
     <div>{{error}}</div>
 
@@ -13,7 +15,7 @@
         <input type="search" required placeholder="Enter Username" ng-model="username" />
         <input type="submit" value="Search" />
     </form>
-    
+
     <div ng-include="'userdetails.html'" ng-show="user"></div>
 
     <script src="Scripts/Vendor/angular.js"></script>
