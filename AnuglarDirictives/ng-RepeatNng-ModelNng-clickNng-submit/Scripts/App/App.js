@@ -4,11 +4,16 @@
 
 
     var mainController = function (
-        $scope, $http, $interval,
+        $scope, github, $interval,
         $log, $anchorScroll, $location) {
+
+        var onUserComplete = function (data) {
+            $scope.user = data;
+            github.getRepos($scope.user).then(onRepos, onError);
+        };
         
-        var onRepos = function (response) {
-            $scope.repos = response.data;
+        var onRepos = function (data) {
+            $scope.repos = data;
             $location.hash("userDetaisl");
             $anchorScroll();
         };
@@ -17,15 +22,7 @@
             $scope.error = "Could not fetch the Data";
         };
 
-        var onUserComplete = function (response) {
-            $scope.user = response.data;
-            $http.get($scope.user.repos_url)
-                .then(onRepos, onError);
-        };
-
-        //$http.get("https://api.github.com/users/suzauddola")
-        //  .then(onUserComplete, onError);
-
+        
 
         var decrementCountdown = function() {
             $scope.countdown -= 1;
@@ -42,8 +39,9 @@
 
         $scope.search = function (username) {
             $log.info("Searching for " + username);
-            $http.get("https://api.github.com/users/" + username)
-                .then(onUserComplete, onError);
+
+            github.getUser(username).then(onUserComplete, onError);
+
             if (countdownInterval) {
                 $interval.cancel(countdownInterval);
                 $scope.countdown = null;
