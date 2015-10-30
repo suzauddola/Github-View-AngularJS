@@ -1,0 +1,6 @@
+c:\users\suza\documents\visual studio 2013\Projects\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\bin\ng-RepeatNng-ModelNng-clickNng-submit.dll.config
+c:\users\suza\documents\visual studio 2013\Projects\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\bin\ng-RepeatNng-ModelNng-clickNng-submit.dll
+c:\users\suza\documents\visual studio 2013\Projects\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\bin\ng-RepeatNng-ModelNng-clickNng-submit.pdb
+c:\users\suza\documents\visual studio 2013\Projects\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\obj\Debug\ng-RepeatNng-ModelNng-clickNng-submit.csprojResolveAssemblyReference.cache
+c:\users\suza\documents\visual studio 2013\Projects\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\obj\Debug\ng-RepeatNng-ModelNng-clickNng-submit.dll
+c:\users\suza\documents\visual studio 2013\Projects\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\obj\Debug\ng-RepeatNng-ModelNng-clickNng-submit.pdb

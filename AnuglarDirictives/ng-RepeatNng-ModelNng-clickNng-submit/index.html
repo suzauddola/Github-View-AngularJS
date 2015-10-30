@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html ng-app="githubViewer">
+<head>
+    <title>Angular Practice</title>
+
+</head>
+<body ng-controller="MainController">
+    <h1>{{massage}}</h1>
+
+    <div>{{error}}</div>
+
+    <form name="searchUser" ng-submit="search(username)">
+        <input type="search" required placeholder="Enter Username" ng-model="username" />
+        <input type="submit" value="Search" />
+    </form>
+    
+    <div ng-include="'userdetails.html'" ng-show="user"></div>
+
+    <script src="Scripts/Vendor/angular.js"></script>
+    <script src="Scripts/Vendor/angular.min.js"></script>
+    <script src="Scripts/Vendor/angular-route.min.js"></script>
+    <script src="Scripts/Vendor/angular-resource.min.js"></script>
+    <script src="Scripts/App/App.js"></script>
+    <script src="Scripts/App/github.js"></script>
+</body>
+</html>
