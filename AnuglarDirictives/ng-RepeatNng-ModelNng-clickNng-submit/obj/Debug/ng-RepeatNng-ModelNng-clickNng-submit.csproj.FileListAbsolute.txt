@@ -7,6 +7,6 @@ c:\users\suza\documents\visual studio 2013\Projects\AnuglarDirictives\ng-RepeatN
 C:\Users\Suza\Documents\Github-View-AngularJS\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\bin\ng-RepeatNng-ModelNng-clickNng-submit.dll.config
 C:\Users\Suza\Documents\Github-View-AngularJS\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\bin\ng-RepeatNng-ModelNng-clickNng-submit.dll
 C:\Users\Suza\Documents\Github-View-AngularJS\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\bin\ng-RepeatNng-ModelNng-clickNng-submit.pdb
-C:\Users\Suza\Documents\Github-View-AngularJS\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\obj\Debug\ng-RepeatNng-ModelNng-clickNng-submit.csprojResolveAssemblyReference.cache
 C:\Users\Suza\Documents\Github-View-AngularJS\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\obj\Debug\ng-RepeatNng-ModelNng-clickNng-submit.dll
 C:\Users\Suza\Documents\Github-View-AngularJS\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\obj\Debug\ng-RepeatNng-ModelNng-clickNng-submit.pdb
+C:\Users\Suza\Documents\Github-View-AngularJS\AnuglarDirictives\ng-RepeatNng-ModelNng-clickNng-submit\obj\Debug\ng-RepeatNng-ModelNng-clickNng-submit.csprojResolveAssemblyReference.cache

@@ -8,24 +8,19 @@
                     return response.data;
                 });
         };
-
-
         var getRepos = function (user) {
             return $http.get(user.repos_url)
                 .then(function (response) {
                     return response.data;
                 });
         };
-
         return {
             getUser: getUser,
             getRepos: getRepos
         };
     };
-
-
-    var module = angular.module("githubViewer");
-    module.factory("github", github);
+    var app = angular.module("githubViewer");
+    app.factory("github", github);
 
 
 }());

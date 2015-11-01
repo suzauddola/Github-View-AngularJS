@@ -57,7 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="main.html" />
     <Content Include="Scripts\App\github.js" />
+    <Content Include="Scripts\App\app.js" />
+    <Content Include="Scripts\App\userController.js" />
     <Content Include="Scripts\Vendor\version.json" />
     <Content Include="Scripts\Vendor\errors.json" />
     <Content Include="Scripts\Vendor\angular-touch.min.js.map" />
@@ -81,7 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="Scripts\App\App.js" />
+    <Content Include="Scripts\App\mainController.js" />
     <Content Include="Scripts\Vendor\angular-animate.js" />
     <Content Include="Scripts\Vendor\angular-animate.min.js" />
     <Content Include="Scripts\Vendor\angular-aria.js" />
@@ -107,7 +110,7 @@
     <Content Include="Scripts\Vendor\angular-touch.min.js" />
     <Content Include="Scripts\Vendor\angular.js" />
     <Content Include="Scripts\Vendor\angular.min.js" />
-    <Content Include="userdetails.html" />
+    <Content Include="user.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
